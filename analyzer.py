@@ -99,6 +99,7 @@ if A_TOTAL_POS > B_TOTAL_POS and B_TOTAL_NEG > A_TOTAL_NEG:
 elif A_TOTAL_POS < B_TOTAL_POS and B_TOTAL_NEG < A_TOTAL_NEG:
 	print("B likes A but A doesn't like B")
 
+print()
 print("A Total POS: ", A_TOTAL_POS)
 print("B Total POS: ", B_TOTAL_POS)
 print("A Total NEG: ", A_TOTAL_NEG)
@@ -115,6 +116,7 @@ B_NUM_NEG = len([s for s in b_scores if s['pos'] < s['neg']])
 A_NUM_NEU = len([s for s in a_scores if s['neu'] == 1.0])
 B_NUM_NEU = len([s for s in b_scores if s['neu'] == 1.0])
 
+print()
 print("A Num POS: ", A_NUM_POS)
 print("A Num NEG: ", A_NUM_NEG)
 print("A Num NEU: ", A_NUM_NEU)
@@ -130,6 +132,7 @@ a_weighted_neg = sum([-1*s['neg']*s['compound'] for s in a_scores if s['neg'] > 
 b_weighted_pos = sum([s['pos']*s['compound'] for s in b_scores if s['pos'] > 0])/len(b_scores)
 b_weighted_neg = sum([-1*s['neg']*s['compound'] for s in b_scores if s['neg'] > 0])/len(b_scores)
 
+print()
 print("A Weighted POS: ", a_weighted_pos)
 print("A Weighted NEG: ", a_weighted_neg)
 print("B Weighted POS: ", b_weighted_pos)
@@ -137,5 +140,6 @@ print("B Weighted NEG: ", b_weighted_neg)
 
 # Neutral Ratios
 
+print()
 print("A Neutral Ratio", A_NUM_NEU/len(a_scores))
 print("B Neutral Ratio", B_NUM_NEU/len(b_scores))

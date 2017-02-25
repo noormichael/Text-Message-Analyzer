@@ -139,9 +139,3 @@ print("B Weighted NEG: ", b_weighted_neg)
 
 print("A Neutral Ratio", A_NUM_NEU/len(a_scores))
 print("B Neutral Ratio", B_NUM_NEU/len(b_scores))
-
-########################################
-# Make Plots
-########################################
-
-# to-do

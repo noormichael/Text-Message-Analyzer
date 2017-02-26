@@ -9,8 +9,7 @@ import json
 
 key_num = '421941424606546'
 
-# r = requests.get("https://graph.facebook.com/v2.3/" + key_num + "/comments?limit=25&__paging_token=enc_AdDROMkcRsTE08ZAeZAZC0goPHEgAdSiS2XuClMPBqiHdYXGUtILUCkwkTvST10QkWWtGejwZAgmKg2zZBvgVwpeuo2UZA&since=1483568411&__previous=1&access_token=EAACEdEose0cBAEocbeN4HW1NwQAqKiq3ci9wFZCSZB5oxg68tjZAQHPMnI91jZCzZB90YCqrHDZCjVa3OSJRxRicIzZAjG3H58OhKz4OjGZCUFKT9PQVJ4smQ1Num1Iuv0zfnx2I0R5iXnba4TwCCpJ0kslzyu2aehxtJwgt27hL9C4jZCUAvezEmHSluEmaGROMZD")
-r = requests.get("https://graph.facebook.com/v2.3/249767628444625/comments?limit=25&__paging_token=enc_AdAsWXTsdTOwaEHAcZBaf4xrAa59FHnNxENV73jMBg1rXqAWFV8pyP2dL4ZBwXFnLKIc8cVu9E8NSYN2p8WrczW97F&since=1487970659&__previous=1&access_token=EAACEdEose0cBAHgrMuoYxi8Ghj1RjE2BkSKW5Di6DrjZBZAvSTtXNxPmbUG9qDRXgYPR0xEq0AbYr04kzD87vrQlzoWgjJsQ3q3yZBxIsEtwBIDlarnu2wF6yJ8dZBnZCwo8ttJWgGC8Dlw4WZBswLkCwBVKkAjyCtW969HqwUpgZBVVjLwcjU2B9PCpXnNFLcZD")
+r = requests.get("https://graph.facebook.com/v2.3/" + key_num + "/comments?limit=25&__paging_token=enc_AdDROMkcRsTE08ZAeZAZC0goPHEgAdSiS2XuClMPBqiHdYXGUtILUCkwkTvST10QkWWtGejwZAgmKg2zZBvgVwpeuo2UZA&since=1483568411&__previous=1&access_token=EAACEdEose0cBAEocbeN4HW1NwQAqKiq3ci9wFZCSZB5oxg68tjZAQHPMnI91jZCzZB90YCqrHDZCjVa3OSJRxRicIzZAjG3H58OhKz4OjGZCUFKT9PQVJ4smQ1Num1Iuv0zfnx2I0R5iXnba4TwCCpJ0kslzyu2aehxtJwgt27hL9C4jZCUAvezEmHSluEmaGROMZD")
 
 list_a = []
 list_b = []
